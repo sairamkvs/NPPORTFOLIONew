@@ -65,7 +65,7 @@ function openLightbox(index) {
   currentPhoto = index;
   $('#lightbox-img').src = src(photos[index]);
   $('#lightbox-img').alt = photos[index].title || 'Portfolio photograph';
-  $('#lightbox-caption').textContent = `${index + 1} / ${photos.length} · ${photos[index].title || 'Nithin Potharaju'}`;
+  $('#lightbox-caption').textContent = `${index + 1} / ${photos.length} · ${photos[index].title || 'Cansora Frames'}`;
   $('#lightbox').classList.add('open');
   $('#lightbox').setAttribute('aria-hidden', 'false');
   document.body.style.overflow = 'hidden';
