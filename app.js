@@ -17,8 +17,10 @@ function renderPhotos() {
 }
 
 function renderFilms() {
-  $('#film-grid').innerHTML = films.map((film, index) => `<article class="film-card"><div class="film-thumb"><video controls playsinline preload="metadata" poster="${safe(film.poster || '')}" aria-label="Play ${safe(film.title || `Film ${index + 1}`)}"><source src="${safe(film.src || '')}" type="video/mp4">Your browser does not support video playback.</video></div><strong>${String(index + 1).padStart(2, '0')}. ${safe(film.title || `Film ${index + 1}`)}</strong><small>${safe(film.description || 'Play video')}</small></article>`).join('');
-  $('#film-position').textContent = `01 / ${String(films.length).padStart(2, '0')}`;
+  $('#film-grid').innerHTML = films.map((film, index) => film.src
+    ? `<article class="film-card"><div class="film-thumb"><video controls playsinline preload="metadata" poster="${safe(film.poster || '')}" aria-label="Play ${safe(film.title || `Film ${index + 1}`)}"><source src="${safe(film.src)}" type="video/mp4">Your browser does not support video playback.</video></div><strong>${String(index + 1).padStart(2, '0')}. ${safe(film.title || `Film ${index + 1}`)}</strong><small>${safe(film.description || 'Play video')}</small></article>`
+    : `<article class="film-card film-placeholder"><div class="film-thumb" aria-hidden="true"><span>+</span><small>VIDEO SLOT</small></div><strong>${String(index + 1).padStart(2, '0')}. ${safe(film.title || `Film ${index + 1}`)}</strong><small>${safe(film.description || 'Add video here')}</small></article>`).join('');
+  $('#film-position').textContent = `01 / ${String(films.filter(film => film.src).length).padStart(2, '0')}`;
   $('#film-grid').querySelectorAll('video').forEach((video, index) => {
     video.addEventListener('loadedmetadata', () => {
       const frame = video.closest('.film-thumb');
@@ -26,17 +28,21 @@ function renderFilms() {
       frame.classList.toggle('is-landscape', video.videoWidth >= video.videoHeight);
     });
     video.addEventListener('play', () => {
-      currentFilm = index;
-      $('#film-position').textContent = `${String(index + 1).padStart(2, '0')} / ${String(films.length).padStart(2, '0')}`;
+      currentFilm = films.map((film, filmIndex) => film.src ? filmIndex : -1).filter(filmIndex => filmIndex >= 0)[index];
+      const playableNumber = films.slice(0, currentFilm + 1).filter(film => film.src).length;
+      $('#film-position').textContent = `${String(playableNumber).padStart(2, '0')} / ${String(films.filter(film => film.src).length).padStart(2, '0')}`;
     });
   });
 }
 
 function moveFilm(direction) {
-  if (!films.length) return;
-  currentFilm = (currentFilm + direction + films.length) % films.length;
-  const video = $('#film-grid').querySelectorAll('video')[currentFilm];
-  $('#film-position').textContent = `${String(currentFilm + 1).padStart(2, '0')} / ${String(films.length).padStart(2, '0')}`;
+  const playableIndices = films.map((film, index) => film.src ? index : -1).filter(index => index >= 0);
+  if (!playableIndices.length) return;
+  const currentPlayableIndex = playableIndices.indexOf(currentFilm);
+  const nextPlayableIndex = (currentPlayableIndex + direction + playableIndices.length) % playableIndices.length;
+  currentFilm = playableIndices[nextPlayableIndex];
+  const video = $('#film-grid').querySelectorAll('video')[nextPlayableIndex];
+  $('#film-position').textContent = `${String(nextPlayableIndex + 1).padStart(2, '0')} / ${String(playableIndices.length).padStart(2, '0')}`;
   $('#film-grid').querySelectorAll('video').forEach(otherVideo => {
     if (otherVideo !== video) otherVideo.pause();
   });
