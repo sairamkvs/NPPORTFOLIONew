@@ -1,0 +1,94 @@
+{
+  "photos": [
+    {"src":"media/photos/01.png","title":"Album Page 01"},
+    {"src":"media/photos/02.png","title":"Album Page 02"},
+    {"src":"media/photos/03.png","title":"Album Page 03"},
+    {"src":"media/photos/04.png","title":"Album Page 04"},
+    {"src":"media/photos/05.png","title":"Album Page 05"},
+    {"src":"media/photos/06.png","title":"Album Page 06"},
+    {"src":"media/photos/07.png","title":"Album Page 07"},
+    {"src":"media/photos/08.png","title":"Album Page 08"},
+    {"src":"media/photos/09.png","title":"Album Page 09"},
+    {"src":"media/photos/11.png","title":"Album Page 11"},
+    {"src":"media/photos/12.png","title":"Album Page 12"},
+    {"src":"media/photos/13.png","title":"Album Page 13"},
+    {"src":"media/photos/14.png","title":"Album Page 14"},
+    {"src":"media/photos/15.png","title":"Album Page 15"},
+    {"src":"media/photos/16.png","title":"Album Page 16"},
+    {"src":"media/photos/17.png","title":"Album Page 17"},
+    {"src":"media/photos/18.png","title":"Album Page 18"},
+    {"src":"media/photos/19.png","title":"Album Page 19"},
+    {"src":"media/photos/20.png","title":"Album Page 20"},
+    {"src":"media/photos/21.png","title":"Album Page 21"},
+    {"src":"media/photos/22.png","title":"Album Page 22"},
+    {"src":"media/photos/23.png","title":"Album Page 23"},
+    {"src":"media/photos/24.png","title":"Album Page 24"},
+    {"src":"media/photos/25.png","title":"Album Page 25"},
+    {"src":"media/photos/26.png","title":"Album Page 26"},
+    {"src":"media/photos/27.png","title":"Album Page 27"},
+    {"src":"media/photos/28.png","title":"Album Page 28"},
+    {"src":"media/photos/29.png","title":"Album Page 29"}
+  ],
+  "films": [
+    {
+      "title": "FPV",
+      "src": "media/videos/FPV.mp4",
+      "poster": "media/posters/film-01.jpg",
+      "description": "Local video: FPV.mp4"
+    },
+    {
+      "title": "Ram Navami X ASBL",
+      "src": "media/videos/Ram Navami X ASBL.mp4",
+      "poster": "media/posters/film-02.jpg",
+      "description": "Local video: Ram Navami X ASBL.mp4"
+    },
+    {
+      "title": "Reel 2",
+      "src": "media/videos/Reel 2.mp4",
+      "poster": "media/posters/film-03.jpg",
+      "description": "Local video: Reel 2.mp4"
+    },
+    {
+      "title": "Reel 3",
+      "src": "media/videos/Reel 3.mp4",
+      "poster": "media/photos/02.png",
+      "description": "Local video: Reel 3.mp4"
+    },
+    {
+      "title": "Reel 4",
+      "src": "media/videos/Reel 4.mp4",
+      "poster": "media/posters/film-05.jpg",
+      "description": "Local video: Reel 4.mp4"
+    },
+    {
+      "title": "Reel",
+      "src": "media/videos/Reel.mp4",
+      "poster": "media/posters/film-06.jpg",
+      "description": "Local video: Reel.mp4"
+    },
+    {
+      "title": "VARSHA & VINEEL - Wedding Highlights",
+      "src": "media/videos/VARSHA & VINEEL __ Wedding Highlights.mp4",
+      "poster": "media/photos/04.png",
+      "description": "Local video: VARSHA & VINEEL __ Wedding Highlights.mp4"
+    },
+    {
+      "title": "Wedding Album Book",
+      "src": "media/videos/Wedding Album Book.mp4",
+      "poster": "media/photos/06.png",
+      "description": "Local video: Wedding Album Book.mp4"
+    },
+    {
+      "title": "Wedding Ceremony - Sanju Priya & Ranjith Goud",
+      "src": "media/videos/Wedding Ceremony _ Sanju Priya & Ranjith Goud _ Cansora Frames.mp4",
+      "poster": "media/photos/08.png",
+      "description": "Local video: Wedding Ceremony _ Sanju Priya & Ranjith Goud _ Cansora Frames.mp4"
+    },
+    {
+      "title": "Wedding Promo - Sanju Priya & Ranjith Goud",
+      "src": "media/videos/Wedding Promo _ Sanju Priya & Ranjith Goud _ Cansora Frames.mp4",
+      "poster": "media/photos/11.png",
+      "description": "Local video: Wedding Promo _ Sanju Priya & Ranjith Goud _ Cansora Frames.mp4"
+    }
+  ]
+}

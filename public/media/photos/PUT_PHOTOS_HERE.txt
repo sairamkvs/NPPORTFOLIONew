@@ -1,0 +1,1 @@
+Place optimized photos here and list each filename in the root media.json file.
