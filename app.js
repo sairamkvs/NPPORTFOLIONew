@@ -56,9 +56,12 @@ function pageSrc(index) {
 
 function renderBook() {
   if (!photos.length) return;
+  const singlePage = window.matchMedia('(max-width: 600px)').matches;
   $('#page-left').innerHTML = `<img loading="lazy" src="${safe(pageSrc(currentPage))}" alt="Book page ${currentPage + 1}">`;
   $('#page-right').innerHTML = `<img loading="lazy" src="${safe(pageSrc(currentPage + 1))}" alt="Book page ${currentPage + 2}">`;
-  $('#page-number').textContent = `${String(currentPage + 1).padStart(2, '0')}—${String(Math.min(currentPage + 2, photos.length)).padStart(2, '0')} / ${photos.length}`;
+  $('#page-number').textContent = singlePage
+    ? `${String(currentPage + 1).padStart(2, '0')} / ${photos.length}`
+    : `${String(currentPage + 1).padStart(2, '0')}—${String(Math.min(currentPage + 2, photos.length)).padStart(2, '0')} / ${photos.length}`;
   $('#thumb-strip').innerHTML = photos.slice(0, 50).map((photo, index) => `<button class="${index === currentPage ? 'active' : ''}" data-page="${index}" aria-label="Go to page ${index + 1}"><img loading="lazy" src="${safe(src(photo))}" alt=""></button>`).join('');
   $('#thumb-strip').querySelectorAll('button').forEach(button => button.addEventListener('click', () => {
     currentPage = Number(button.dataset.page);
@@ -106,11 +109,13 @@ $('#load-more').addEventListener('click', () => {
   renderPhotos();
 });
 $('#prev').addEventListener('click', () => {
-  currentPage = Math.max(0, currentPage - 2);
+  const pageStep = window.matchMedia('(max-width: 600px)').matches ? 1 : 2;
+  currentPage = Math.max(0, currentPage - pageStep);
   renderBook();
 });
 $('#next').addEventListener('click', () => {
-  currentPage = (currentPage + 2) % Math.max(photos.length, 1);
+  const pageStep = window.matchMedia('(max-width: 600px)').matches ? 1 : 2;
+  currentPage = (currentPage + pageStep) % Math.max(photos.length, 1);
   renderBook();
 });
 $('#film-prev').addEventListener('click', () => moveFilm(-1));
@@ -127,13 +132,16 @@ document.addEventListener('keydown', event => {
   if ($('#lightbox').classList.contains('open') && event.key === 'ArrowRight') moveLightbox(1);
   if ($('#lightbox').classList.contains('open') && event.key === 'ArrowLeft') moveLightbox(-1);
   if (document.fullscreenElement === $('.book-shell') && event.key === 'ArrowRight') {
-    currentPage = (currentPage + 2) % Math.max(photos.length, 1);
+    const pageStep = window.matchMedia('(max-width: 600px)').matches ? 1 : 2;
+    currentPage = (currentPage + pageStep) % Math.max(photos.length, 1);
     renderBook();
   }
   if (document.fullscreenElement === $('.book-shell') && event.key === 'ArrowLeft') {
-    currentPage = Math.max(0, currentPage - 2);
+    const pageStep = window.matchMedia('(max-width: 600px)').matches ? 1 : 2;
+    currentPage = Math.max(0, currentPage - pageStep);
     renderBook();
   }
 });
+window.addEventListener('resize', renderBook);
 $('#menu').addEventListener('click', () => document.querySelector('.nav nav').classList.toggle('open'));
 init();
