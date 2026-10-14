@@ -1,88 +1,337 @@
 {
   "photos": [
-    {"src":"media/photos/01.png","title":"Album Page 01"},
-    {"src":"media/photos/02.png","title":"Album Page 02"},
-    {"src":"media/photos/03.png","title":"Album Page 03"},
-    {"src":"media/photos/04.png","title":"Album Page 04"},
-    {"src":"media/photos/05.png","title":"Album Page 05"},
-    {"src":"media/photos/06.png","title":"Album Page 06"},
-    {"src":"media/photos/07.png","title":"Album Page 07"},
-    {"src":"media/photos/08.png","title":"Album Page 08"},
-    {"src":"media/photos/09.png","title":"Album Page 09"},
-    {"src":"media/photos/11.png","title":"Album Page 11"},
-    {"src":"media/photos/12.png","title":"Album Page 12"},
-    {"src":"media/photos/13.png","title":"Album Page 13"},
-    {"src":"media/photos/14.png","title":"Album Page 14"},
-    {"src":"media/photos/15.png","title":"Album Page 15"},
-    {"src":"media/photos/16.png","title":"Album Page 16"},
-    {"src":"media/photos/17.png","title":"Album Page 17"},
-    {"src":"media/photos/18.png","title":"Album Page 18"},
-    {"src":"media/photos/19.png","title":"Album Page 19"},
-    {"src":"media/photos/20.png","title":"Album Page 20"},
-    {"src":"media/photos/21.png","title":"Album Page 21"},
-    {"src":"media/photos/22.png","title":"Album Page 22"},
-    {"src":"media/photos/23.png","title":"Album Page 23"},
-    {"src":"media/photos/24.png","title":"Album Page 24"},
-    {"src":"media/photos/25.png","title":"Album Page 25"},
-    {"src":"media/photos/26.png","title":"Album Page 26"},
-    {"src":"media/photos/27.png","title":"Album Page 27"},
-    {"src":"media/photos/28.png","title":"Album Page 28"},
-    {"src":"media/photos/29.png","title":"Album Page 29"},
-    {"src":"media/photos/03 .png","title":"03 .png"},
-    {"src":"media/photos/10.png","title":"Album Page 10"},
-    {"src":"media/photos/30.png","title":"Album Page 30"},
-    {"src":"media/photos/31.png","title":"Album Page 31"},
-    {"src":"media/photos/32.png","title":"Album Page 32"},
-    {"src":"media/photos/34_.png","title":"34_.png"},
-    {"src":"media/photos/46a2bad9-4d9c-4dc9-9d40-9f9e66f626ba 2.JPG","title":"46a2bad9-4d9c-4dc9-9d40-9f9e66f626ba 2.JPG"},
-    {"src":"media/photos/58a3300d-e672-4e4b-8a96-f5c3c18dc989 2.JPG","title":"58a3300d-e672-4e4b-8a96-f5c3c18dc989 2.JPG"},
-    {"src":"media/photos/649223904_17988429293950245_1628150783481436392_n.jpg","title":"649223904_17988429293950245_1628150783481436392_n.jpg"},
-    {"src":"media/photos/649230036_17988429197950245_1703551576435054002_n.jpg","title":"649230036_17988429197950245_1703551576435054002_n.jpg"},
-    {"src":"media/photos/649234596_17988429269950245_5304129119165268128_n.jpg","title":"649234596_17988429269950245_5304129119165268128_n.jpg"},
-    {"src":"media/photos/649235852_17988429206950245_6907843518006519620_n.jpg","title":"649235852_17988429206950245_6907843518006519620_n.jpg"},
-    {"src":"media/photos/649244882_17988429227950245_200679582959852028_n.jpg","title":"649244882_17988429227950245_200679582959852028_n.jpg"},
-    {"src":"media/photos/649249647_17988429281950245_2765325863449450488_n.jpg","title":"649249647_17988429281950245_2765325863449450488_n.jpg"},
-    {"src":"media/photos/649597986_17988429248950245_7862244150056007893_n.jpg","title":"649597986_17988429248950245_7862244150056007893_n.jpg"},
-    {"src":"media/photos/650090779_17988429236950245_6394770398651803306_n.jpg","title":"650090779_17988429236950245_6394770398651803306_n.jpg"},
-    {"src":"media/photos/650881895_17988429218950245_960234297348114353_n.jpg","title":"650881895_17988429218950245_960234297348114353_n.jpg"},
-    {"src":"media/photos/650945047_17988429257950245_3468760923619629325_n.jpg","title":"650945047_17988429257950245_3468760923619629325_n.jpg"},
-    {"src":"media/photos/DSC00423.JPG","title":"DSC00423"},
-    {"src":"media/photos/DSC00451 (3).JPG","title":"DSC00451 (3)"},
-    {"src":"media/photos/DSC00456.JPG","title":"DSC00456"},
-    {"src":"media/photos/DSC00544.JPG","title":"DSC00544"},
-    {"src":"media/photos/DSC06712.JPG","title":"DSC06712"},
-    {"src":"media/photos/DSC08921.JPG","title":"DSC08921"},
-    {"src":"media/photos/DSC09069.JPG","title":"DSC09069"},
-    {"src":"media/photos/DSC09133.JPG","title":"DSC09133"},
-    {"src":"media/photos/DSC09595.JPG","title":"DSC09595"},
-    {"src":"media/photos/DSC09779.JPG","title":"DSC09779"},
-    {"src":"media/photos/f0650951-cc3a-469a-8794-a19e7d3b306a 2.JPG","title":"f0650951-cc3a-469a-8794-a19e7d3b306a 2.JPG"},
-    {"src":"media/photos/IMG_8379 2.JPEG","title":"IMG 8379"},
-    {"src":"media/photos/IMG_8381 2.JPEG","title":"IMG 8381"},
-    {"src":"media/photos/IMG_8499 2.JPG","title":"IMG 8499"},
-    {"src":"media/photos/IMG_8500 2.JPG","title":"IMG 8500"},
-    {"src":"media/photos/IMG_8501 2.JPG","title":"IMG 8501"},
-    {"src":"media/photos/IMG_8502 2.JPG","title":"IMG 8502"},
-    {"src":"media/photos/IMG_8523.jpg","title":"IMG 8523"},
-    {"src":"media/photos/IMG_8524.jpg","title":"IMG 8524"},
-    {"src":"media/photos/IMG_8633.PNG","title":"IMG 8633"},
-    {"src":"media/photos/IMG_8640.PNG","title":"IMG 8640"},
-    {"src":"media/photos/IMG_8975.PNG","title":"IMG 8975"},
-    {"src":"media/photos/IMG_8982.PNG","title":"IMG 8982"},
-    {"src":"media/photos/IMG_9040.JPG","title":"IMG 9040"},
-    {"src":"media/photos/IMG_9061.JPG","title":"IMG 9061"},
-    {"src":"media/photos/WhatsApp Image 2026-03-26 at 7.26.11\u202fPM (1).jpeg","title":"WhatsApp Image 7.26.11 PM 1"},
-    {"src":"media/photos/WhatsApp Image 2026-03-26 at 7.26.11\u202fPM.jpeg","title":"WhatsApp Image 7.26.11 PM"},
-    {"src":"media/photos/WhatsApp Image 2026-03-26 at 7.26.12\u202fPM (1).jpeg","title":"WhatsApp Image 7.26.12 PM 1"},
-    {"src":"media/photos/WhatsApp Image 2026-03-26 at 7.26.12\u202fPM (2).jpeg","title":"WhatsApp Image 7.26.12 PM 2"},
-    {"src":"media/photos/WhatsApp Image 2026-03-26 at 7.26.12\u202fPM.jpeg","title":"WhatsApp Image 7.26.12 PM"},
-    {"src":"media/photos/WhatsApp Image 2026-03-26 at 7.26.13\u202fPM.jpeg","title":"WhatsApp Image 7.26.13 PM"},
-    {"src":"media/photos/WhatsApp Image 2026-03-26 at 7.26.14\u202fPM.jpeg","title":"WhatsApp Image 7.26.14 PM"},
-    {"src":"media/photos/WhatsApp Image 2026-03-26 at 7.26.15\u202fPM.jpeg","title":"WhatsApp Image 7.26.15 PM"},
-    {"src":"media/photos/WhatsApp Image 2026-03-26 at 7.26.16\u202fPM (1).jpeg","title":"WhatsApp Image 7.26.16 PM 1"},
-    {"src":"media/photos/WhatsApp Image 2026-03-26 at 7.26.16\u202fPM (2).jpeg","title":"WhatsApp Image 7.26.16 PM 2"},
-    {"src":"media/photos/WhatsApp Image 2026-03-26 at 7.26.16\u202fPM.jpeg","title":"WhatsApp Image 7.26.16 PM"},
-    {"src":"media/photos/WhatsApp Image 2026-03-26 at 7.26.17\u202fPM.jpeg","title":"WhatsApp Image 7.26.17 PM"}
+    {
+      "src": "media/photos/01.png",
+      "title": "Album Page 01"
+    },
+    {
+      "src": "media/photos/02.png",
+      "title": "Album Page 02"
+    },
+    {
+      "src": "media/photos/03.png",
+      "title": "Album Page 03"
+    },
+    {
+      "src": "media/photos/04.png",
+      "title": "Album Page 04"
+    },
+    {
+      "src": "media/photos/05.png",
+      "title": "Album Page 05"
+    },
+    {
+      "src": "media/photos/06.png",
+      "title": "Album Page 06"
+    },
+    {
+      "src": "media/photos/07.png",
+      "title": "Album Page 07"
+    },
+    {
+      "src": "media/photos/08.png",
+      "title": "Album Page 08"
+    },
+    {
+      "src": "media/photos/09.png",
+      "title": "Album Page 09"
+    },
+    {
+      "src": "media/photos/11.png",
+      "title": "Album Page 11"
+    },
+    {
+      "src": "media/photos/12.png",
+      "title": "Album Page 12"
+    },
+    {
+      "src": "media/photos/13.png",
+      "title": "Album Page 13"
+    },
+    {
+      "src": "media/photos/14.png",
+      "title": "Album Page 14"
+    },
+    {
+      "src": "media/photos/15.png",
+      "title": "Album Page 15"
+    },
+    {
+      "src": "media/photos/16.png",
+      "title": "Album Page 16"
+    },
+    {
+      "src": "media/photos/17.png",
+      "title": "Album Page 17"
+    },
+    {
+      "src": "media/photos/18.png",
+      "title": "Album Page 18"
+    },
+    {
+      "src": "media/photos/19.png",
+      "title": "Album Page 19"
+    },
+    {
+      "src": "media/photos/20.png",
+      "title": "Album Page 20"
+    },
+    {
+      "src": "media/photos/21.png",
+      "title": "Album Page 21"
+    },
+    {
+      "src": "media/photos/22.png",
+      "title": "Album Page 22"
+    },
+    {
+      "src": "media/photos/23.png",
+      "title": "Album Page 23"
+    },
+    {
+      "src": "media/photos/24.png",
+      "title": "Album Page 24"
+    },
+    {
+      "src": "media/photos/25.png",
+      "title": "Album Page 25"
+    },
+    {
+      "src": "media/photos/26.png",
+      "title": "Album Page 26"
+    },
+    {
+      "src": "media/photos/27.png",
+      "title": "Album Page 27"
+    },
+    {
+      "src": "media/photos/28.png",
+      "title": "Album Page 28"
+    },
+    {
+      "src": "media/photos/29.png",
+      "title": "Album Page 29"
+    },
+    {
+      "src": "media/photos/03 .png",
+      "title": "03 .png"
+    },
+    {
+      "src": "media/photos/10.png",
+      "title": "Album Page 10"
+    },
+    {
+      "src": "media/photos/30.png",
+      "title": "Album Page 30"
+    },
+    {
+      "src": "media/photos/31.png",
+      "title": "Album Page 31"
+    },
+    {
+      "src": "media/photos/32.png",
+      "title": "Album Page 32"
+    },
+    {
+      "src": "media/photos/34_.png",
+      "title": "34_.png"
+    },
+    {
+      "src": "media/photos/46a2bad9-4d9c-4dc9-9d40-9f9e66f626ba 2.JPG",
+      "title": "46a2bad9-4d9c-4dc9-9d40-9f9e66f626ba 2.JPG"
+    },
+    {
+      "src": "media/photos/58a3300d-e672-4e4b-8a96-f5c3c18dc989 2.JPG",
+      "title": "58a3300d-e672-4e4b-8a96-f5c3c18dc989 2.JPG"
+    },
+    {
+      "src": "media/photos/649223904_17988429293950245_1628150783481436392_n.jpg",
+      "title": "649223904_17988429293950245_1628150783481436392_n.jpg"
+    },
+    {
+      "src": "media/photos/649230036_17988429197950245_1703551576435054002_n.jpg",
+      "title": "649230036_17988429197950245_1703551576435054002_n.jpg"
+    },
+    {
+      "src": "media/photos/649234596_17988429269950245_5304129119165268128_n.jpg",
+      "title": "649234596_17988429269950245_5304129119165268128_n.jpg"
+    },
+    {
+      "src": "media/photos/649235852_17988429206950245_6907843518006519620_n.jpg",
+      "title": "649235852_17988429206950245_6907843518006519620_n.jpg"
+    },
+    {
+      "src": "media/photos/649244882_17988429227950245_200679582959852028_n.jpg",
+      "title": "649244882_17988429227950245_200679582959852028_n.jpg"
+    },
+    {
+      "src": "media/photos/649249647_17988429281950245_2765325863449450488_n.jpg",
+      "title": "649249647_17988429281950245_2765325863449450488_n.jpg"
+    },
+    {
+      "src": "media/photos/649597986_17988429248950245_7862244150056007893_n.jpg",
+      "title": "649597986_17988429248950245_7862244150056007893_n.jpg"
+    },
+    {
+      "src": "media/photos/650090779_17988429236950245_6394770398651803306_n.jpg",
+      "title": "650090779_17988429236950245_6394770398651803306_n.jpg"
+    },
+    {
+      "src": "media/photos/650881895_17988429218950245_960234297348114353_n.jpg",
+      "title": "650881895_17988429218950245_960234297348114353_n.jpg"
+    },
+    {
+      "src": "media/photos/650945047_17988429257950245_3468760923619629325_n.jpg",
+      "title": "650945047_17988429257950245_3468760923619629325_n.jpg"
+    },
+    {
+      "src": "media/photos/DSC00423.JPG",
+      "title": "DSC00423"
+    },
+    {
+      "src": "media/photos/DSC00451 (3).JPG",
+      "title": "DSC00451 (3)"
+    },
+    {
+      "src": "media/photos/DSC00456.JPG",
+      "title": "DSC00456"
+    },
+    {
+      "src": "media/photos/DSC00544.JPG",
+      "title": "DSC00544"
+    },
+    {
+      "src": "media/photos/DSC06712.JPG",
+      "title": "DSC06712"
+    },
+    {
+      "src": "media/photos/DSC08921.JPG",
+      "title": "DSC08921"
+    },
+    {
+      "src": "media/photos/DSC09069.JPG",
+      "title": "DSC09069"
+    },
+    {
+      "src": "media/photos/DSC09133.JPG",
+      "title": "DSC09133"
+    },
+    {
+      "src": "media/photos/DSC09595.JPG",
+      "title": "DSC09595"
+    },
+    {
+      "src": "media/photos/DSC09779.JPG",
+      "title": "DSC09779"
+    },
+    {
+      "src": "media/photos/f0650951-cc3a-469a-8794-a19e7d3b306a 2.JPG",
+      "title": "f0650951-cc3a-469a-8794-a19e7d3b306a 2.JPG"
+    },
+    {
+      "src": "media/photos/IMG_8379 2.JPEG",
+      "title": "IMG 8379"
+    },
+    {
+      "src": "media/photos/IMG_8381 2.JPEG",
+      "title": "IMG 8381"
+    },
+    {
+      "src": "media/photos/IMG_8499 2.JPG",
+      "title": "IMG 8499"
+    },
+    {
+      "src": "media/photos/IMG_8500 2.JPG",
+      "title": "IMG 8500"
+    },
+    {
+      "src": "media/photos/IMG_8501 2.JPG",
+      "title": "IMG 8501"
+    },
+    {
+      "src": "media/photos/IMG_8502 2.JPG",
+      "title": "IMG 8502"
+    },
+    {
+      "src": "media/photos/IMG_8523.jpg",
+      "title": "IMG 8523"
+    },
+    {
+      "src": "media/photos/IMG_8524.jpg",
+      "title": "IMG 8524"
+    },
+    {
+      "src": "media/photos/IMG_8633.PNG",
+      "title": "IMG 8633"
+    },
+    {
+      "src": "media/photos/IMG_8640.PNG",
+      "title": "IMG 8640"
+    },
+    {
+      "src": "media/photos/IMG_8975.PNG",
+      "title": "IMG 8975"
+    },
+    {
+      "src": "media/photos/IMG_8982.PNG",
+      "title": "IMG 8982"
+    },
+    {
+      "src": "media/photos/IMG_9040.JPG",
+      "title": "IMG 9040"
+    },
+    {
+      "src": "media/photos/IMG_9061.JPG",
+      "title": "IMG 9061"
+    },
+    {
+      "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.11 PM (1).jpeg",
+      "title": "WhatsApp Image 7.26.11 PM 1"
+    },
+    {
+      "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.11 PM.jpeg",
+      "title": "WhatsApp Image 7.26.11 PM"
+    },
+    {
+      "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.12 PM (1).jpeg",
+      "title": "WhatsApp Image 7.26.12 PM 1"
+    },
+    {
+      "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.12 PM (2).jpeg",
+      "title": "WhatsApp Image 7.26.12 PM 2"
+    },
+    {
+      "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.12 PM.jpeg",
+      "title": "WhatsApp Image 7.26.12 PM"
+    },
+    {
+      "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.13 PM.jpeg",
+      "title": "WhatsApp Image 7.26.13 PM"
+    },
+    {
+      "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.14 PM.jpeg",
+      "title": "WhatsApp Image 7.26.14 PM"
+    },
+    {
+      "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.15 PM.jpeg",
+      "title": "WhatsApp Image 7.26.15 PM"
+    },
+    {
+      "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.16 PM (1).jpeg",
+      "title": "WhatsApp Image 7.26.16 PM 1"
+    },
+    {
+      "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.16 PM (2).jpeg",
+      "title": "WhatsApp Image 7.26.16 PM 2"
+    },
+    {
+      "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.16 PM.jpeg",
+      "title": "WhatsApp Image 7.26.16 PM"
+    },
+    {
+      "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.17 PM.jpeg",
+      "title": "WhatsApp Image 7.26.17 PM"
+    }
   ],
   "films": [
     {
@@ -146,16 +395,16 @@
       "description": "Local video: Wedding Promo _ Sanju Priya & Ranjith Goud _ Cansora Frames.mp4"
     },
     {
-      "title": "Video 11",
-      "src": "",
-      "poster": "",
-      "description": "Add video here"
+      "title": "Tharun & Manusha - Wedding Highlights",
+      "src": "media/videos/WhatsApp Video 2026-10-14 at 12.20.52 AM.mp4",
+      "poster": "media/posters/film-01.jpg",
+      "description": "WhatsApp video"
     },
     {
-      "title": "Video 12",
-      "src": "",
-      "poster": "",
-      "description": "Add video here"
+      "title": "Wedding Promo - Priyatha & Vinayak",
+      "src": "media/videos/WhatsApp Video 2026-10-14 at 12.21.34 AM.mp4",
+      "poster": "media/posters/film-02.jpg",
+      "description": "WhatsApp video"
     }
   ]
 }
