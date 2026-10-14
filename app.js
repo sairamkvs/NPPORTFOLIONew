@@ -7,6 +7,26 @@ let currentFilm = 0;
 const $ = selector => document.querySelector(selector);
 const safe = value => String(value || '').replace(/[&<>"']/g, character => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[character]));
 const src = photo => photo.src || 'media/cover.svg';
+const THEME_KEY = 'cansora-theme';
+
+function applyTheme(theme) {
+  const nextTheme = theme === 'light' ? 'light' : 'dark';
+  document.body.setAttribute('data-theme', nextTheme);
+
+  const toggle = $('#theme-toggle');
+  if (toggle) {
+    const icon = toggle.querySelector('.theme-icon');
+    toggle.setAttribute('aria-label', nextTheme === 'dark' ? 'Switch to light mode' : 'Switch to dark mode');
+    toggle.classList.toggle('is-light', nextTheme === 'light');
+    if (icon) icon.textContent = nextTheme === 'dark' ? '☀️' : '🌙';
+  }
+
+  try {
+    localStorage.setItem(THEME_KEY, nextTheme);
+  } catch (error) {
+    console.warn('Theme preference could not be saved.', error);
+  }
+}
 
 function renderPhotos() {
   const grid = $('#photo-grid');
@@ -103,6 +123,14 @@ async function init() {
   renderFilms();
   renderBook();
 }
+
+const savedTheme = localStorage.getItem(THEME_KEY) || 'dark';
+applyTheme(savedTheme);
+
+$('#theme-toggle').addEventListener('click', () => {
+  const nextTheme = document.body.dataset.theme === 'dark' ? 'light' : 'dark';
+  applyTheme(nextTheme);
+});
 
 $('#load-more').addEventListener('click', () => {
   visibleCount += 32;

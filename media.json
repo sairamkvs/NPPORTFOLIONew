@@ -286,107 +286,102 @@
     },
     {
       "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.11 PM (1).jpeg",
-      "title": "WhatsApp Image 7.26.11 PM 1"
+      "title": "Image DSC001"
     },
     {
       "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.11 PM.jpeg",
-      "title": "WhatsApp Image 7.26.11 PM"
+      "title": "Image DSC002"
     },
     {
       "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.12 PM (1).jpeg",
-      "title": "WhatsApp Image 7.26.12 PM 1"
+      "title": "Image DSC003"
     },
     {
       "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.12 PM (2).jpeg",
-      "title": "WhatsApp Image 7.26.12 PM 2"
+      "title": "Image DSC004"
     },
     {
       "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.12 PM.jpeg",
-      "title": "WhatsApp Image 7.26.12 PM"
+      "title": "Image DSC005"
     },
     {
       "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.13 PM.jpeg",
-      "title": "WhatsApp Image 7.26.13 PM"
+      "title": "Image DSC006"
     },
     {
       "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.14 PM.jpeg",
-      "title": "WhatsApp Image 7.26.14 PM"
+      "title": "Image DSC007"
     },
     {
       "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.15 PM.jpeg",
-      "title": "WhatsApp Image 7.26.15 PM"
+      "title": "Image DSC008"
     },
     {
       "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.16 PM (1).jpeg",
-      "title": "WhatsApp Image 7.26.16 PM 1"
+      "title": "Image DSC009"
     },
     {
       "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.16 PM (2).jpeg",
-      "title": "WhatsApp Image 7.26.16 PM 2"
+      "title": "Image DSC010"
     },
     {
       "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.16 PM.jpeg",
-      "title": "WhatsApp Image 7.26.16 PM"
+      "title": "Image DSC011"
     },
     {
       "src": "media/photos/WhatsApp Image 2026-03-26 at 7.26.17 PM.jpeg",
-      "title": "WhatsApp Image 7.26.17 PM"
+      "title": "Image DSC012"
     }
   ],
   "films": [
     {
+      "poster": "media/posters/film-11-poster.jpg",
       "title": "FPV",
       "src": "media/videos/FPV.mp4",
       "poster": "media/posters/film-01.jpg",
-      "description": "Local video: FPV.mp4"
+      "description": "FPV.mp4"
     },
     {
       "title": "Ram Navami X ASBL",
       "src": "media/videos/Ram Navami X ASBL.mp4",
       "poster": "media/posters/film-02.jpg",
-      "description": "Local video: Ram Navami X ASBL.mp4"
-    },
-    {
-      "title": "Reel 2",
-      "src": "media/videos/Reel 2.mp4",
-      "poster": "media/posters/film-03.jpg",
-      "description": "Local video: Reel 2.mp4"
+      "description": "Ram Navami X ASBL.mp4"
     },
     {
       "title": "Reel 3",
       "src": "media/videos/Reel 3.mp4",
       "poster": "media/photos/02.png",
-      "description": "Local video: Reel 3.mp4"
+      "description": "Reel 3.mp4"
     },
     {
       "title": "Reel 4",
       "src": "media/videos/Reel 4.mp4",
       "poster": "media/posters/film-05.jpg",
-      "description": "Local video: Reel 4.mp4"
+      "description": "Reel 4.mp4"
     },
     {
       "title": "Reel",
       "src": "media/videos/Reel.mp4",
       "poster": "media/posters/film-06.jpg",
-      "description": "Local video: Reel.mp4"
+      "description": "Reel.mp4"
     },
     {
       "title": "VARSHA & VINEEL - Wedding Highlights",
       "src": "media/videos/VARSHA & VINEEL __ Wedding Highlights.mp4",
       "poster": "media/photos/04.png",
-      "description": "Local video: VARSHA & VINEEL __ Wedding Highlights.mp4"
+      "description": "VARSHA & VINEEL __ Wedding Highlights.mp4"
     },
     {
       "title": "Wedding Album Book",
       "src": "media/videos/Wedding Album Book.mp4",
       "poster": "media/photos/06.png",
-      "description": "Local video: Wedding Album Book.mp4"
+      "description": "Wedding Album Book.mp4"
     },
     {
       "title": "Wedding Ceremony - Sanju Priya & Ranjith Goud",
       "src": "media/videos/Wedding Ceremony _ Sanju Priya & Ranjith Goud _ Cansora Frames.mp4",
       "poster": "media/photos/08.png",
-      "description": "Local video: Wedding Ceremony _ Sanju Priya & Ranjith Goud _ Cansora Frames.mp4"
+      "description": "Wedding Ceremony _ Sanju Priya & Ranjith Goud _ Cansora Frames.mp4"
     },
     {
       "title": "Wedding Promo - Sanju Priya & Ranjith Goud",
@@ -397,14 +392,14 @@
     {
       "title": "Tharun & Manusha - Wedding Highlights",
       "src": "media/videos/WhatsApp Video 2026-10-14 at 12.20.52 AM.mp4",
-      "poster": "media/posters/film-01.jpg",
-      "description": "WhatsApp video"
+      "poster": "media/posters/film-11-poster.jpg",
+      "description": "Wedding Highlight"
     },
     {
       "title": "Wedding Promo - Priyatha & Vinayak",
       "src": "media/videos/WhatsApp Video 2026-10-14 at 12.21.34 AM.mp4",
       "poster": "media/posters/film-02.jpg",
-      "description": "WhatsApp video"
+      "description": "Wedding Highlight"
     }
   ]
 }
